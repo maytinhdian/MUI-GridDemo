@@ -10,12 +10,12 @@ import {
 
 function NavBar() {
   return (
-    <AppBar color="secondary">
+    <AppBar color="primary">
       <Toolbar>
         <IconButton size="large" edge="start" color="inherit" aria-label="logo">
           <ChildCareSharp />
         </IconButton>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+        <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
           MY DEMO APP
         </Typography>
         <Stack direction="row" spacing={2}>

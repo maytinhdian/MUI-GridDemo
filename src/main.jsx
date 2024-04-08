@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={MyTheme}>
       <CssBaseline/>
-      <DefaultLayout />
+      <DefaultLayout isLoggedIn={true} />
     </ThemeProvider>
   </React.StrictMode>
 );

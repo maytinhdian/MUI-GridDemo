@@ -1,14 +1,16 @@
-import { Paper, Typography } from "@mui/material";
-
+import { Box, Paper, Typography } from "@mui/material";
+import "../components/Footer.css";
 function Footer() {
   return (
-    <footer>
-      <Paper sx={{ bgcolor: 'secondary.main'}}>
-        <Typography variant="h6" component="div" >
-          This is page footer
-        </Typography>
+    <footer className="footer">
+      <Paper sx={{ bgcolor: "primary.main" }}>
+        <Box sx={{width:'100vw'}}>
+          <Typography variant="h6" component="div" width="100%">
+            This is page footer
+          </Typography>
+        </Box>
       </Paper>
-     </footer>
+    </footer>
   );
 }
 
